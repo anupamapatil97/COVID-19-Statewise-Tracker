@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 600px;
+    background-image: url('./images/stay.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.stateBlock{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    /* opacity: 1; */
+    padding: 10px;
+    background-color:gray !important;
+    /* background: transparent; */
+    width: 30%;
+    height: 160px;
+    margin: 20px 0;
+    text-align: center;
+}
+.card h3{
+    text-align: center;
+    padding: 10px;
+    line-height: 50px;
+}
+
+.card span{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    background-color: rgb(72, 145, 212);
+    padding: 10px 20px;
+   
+}
+/* form  */
+#form{
+    padding: 40px;
+
+}
+@media (max-width:800px){
+    .stateBlock{
+        display: inline;
+       
+    }
+    .card{
+        /* opacity: 1; */
+        padding: 10px;
+        /* background-color: rgb(214, 213, 213); */
+        background: transparent;
+        width: 80%;
+        height: 160px;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
